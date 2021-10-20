@@ -1,0 +1,366 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,500;1,600&family=Ubuntu:wght@300;400;500;700&display=swap");
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+/* header part css start */
+header {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+nav {
+  width: 60%;
+  text-transform: uppercase;
+  font-family: "Playfair Display", serif;
+}
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+}
+nav ul li {
+}
+nav ul li a {
+  text-decoration: none;
+  color: #626262;
+}
+
+.logo {
+}
+/* header part css ends */
+
+/* banner part css starts */
+
+.banner {
+  width: 90%;
+  margin: auto;
+}
+.banner img {
+  width: 100%;
+}
+
+/* banner part css ends */
+
+/* photodiary css starts */
+.photodiary {
+  width: 80%;
+  margin: auto;
+  margin-top: 70px;
+}
+.photodiary h5 {
+  margin-top: 50px;
+  color: #c2bcb0;
+  font-size: 14px;
+  font-family: "Ubuntu", sans-serif;
+  text-transform: uppercase;
+}
+.photodiary h1 {
+  margin-top: 50px;
+  font-size: 30px;
+  color: #626262;
+  font-family: "Playfair Display", serif;
+}
+.photodiary p {
+  margin-top: 20px;
+  font-size: 14px;
+  color: #626262;
+  font-family: "Playfair Display", serif;
+  line-height: 25px;
+}
+
+/* photodiary css ends */
+
+/* lifestyle css starts */
+.lifestyle {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  margin-top: 100px;
+  justify-content: space-between;
+}
+.lifestyle_one {
+  width: 48%;
+}
+.lifestyle_one img {
+  width: 100%;
+}
+.lifestyle_one h5 {
+  color: #c2bcb0;
+  font-size: 14px;
+  font-family: "Ubuntu", sans-serif;
+  text-transform: uppercase;
+  margin-top: 30px;
+}
+.lifestyle_one h1 {
+  color: #626262;
+  font-size: 30px;
+  font-family: "Playfair Display", serif;
+  text-transform: capitalize;
+  margin-top: 30px;
+}
+.lifestyle_one p {
+  margin-top: 30px;
+  font-size: 14px;
+  font-family: "Playfair Display", serif;
+  color: #626262;
+  line-height: 25px;
+}
+.lifestyle_two {
+  width: 48%;
+}
+.lifestyle_two img {
+  width: 100%;
+}
+
+.lifestyle_two h5 {
+  color: #c2bcb0;
+  font-size: 14px;
+  font-family: "Ubuntu", sans-serif;
+  text-transform: uppercase;
+  margin-top: 30px;
+}
+.lifestyle_two h1 {
+  color: #626262;
+  font-size: 30px;
+  font-family: "Playfair Display", serif;
+  text-transform: capitalize;
+  margin-top: 30px;
+}
+
+.lifestyle_two p {
+  margin-top: 30px;
+  font-size: 14px;
+  font-family: "Playfair Display", serif;
+  color: #626262;
+  line-height: 25px;
+}
+
+.lifestyle_three {
+  width: 48%;
+}
+.lifestyle_three img {
+  width: 100%;
+}
+.lifestyle_three h5 {
+  color: #c2bcb0;
+  font-size: 14px;
+  font-family: "Ubuntu", sans-serif;
+  text-transform: uppercase;
+  margin-top: 30px;
+}
+.lifestyle_three h1 {
+  color: #626262;
+  font-size: 30px;
+  font-family: "Playfair Display", serif;
+  text-transform: capitalize;
+  margin-top: 30px;
+}
+.lifestyle_three p {
+  margin-top: 30px;
+  font-size: 14px;
+  font-family: "Playfair Display", serif;
+  color: #626262;
+  line-height: 25px;
+}
+.lifestyle_four {
+  width: 48%;
+}
+.lifestyle_four img {
+  width: 100%;
+}
+
+.lifestyle_four h5 {
+  color: #c2bcb0;
+  font-size: 14px;
+  font-family: "Ubuntu", sans-serif;
+  text-transform: uppercase;
+  margin-top: 30px;
+}
+.lifestyle_four h1 {
+  color: #626262;
+  font-size: 30px;
+  font-family: "Playfair Display", serif;
+  text-transform: capitalize;
+  margin-top: 30px;
+}
+
+.lifestyle_four p {
+  margin-top: 30px;
+  font-size: 14px;
+  font-family: "Playfair Display", serif;
+  color: #626262;
+  line-height: 25px;
+}
+/* lifestyle css ends */
+/* newsletter css starts */
+.newsletter {
+  background: #f0f0f0;
+  padding: 80px 0px;
+  margin-top: 80px;
+}
+.news {
+  margin: auto;
+  width: 360px;
+  position: relative;
+}
+.news h1 {
+  color: #333333;
+  font-size: 30px;
+  font-family: 400px;
+  font-family: "Playfair Display", serif;
+}
+
+.news input {
+  margin-top: 80px;
+  color: #888888;
+  border: none;
+  background: transparent;
+  border-bottom: 3px solid black;
+  width: 360px;
+  padding: 10px 0px;
+}
+.send {
+  position: absolute;
+  right: 0px;
+  bottom: 8px;
+}
+input::placeholder {
+  font-size: 14px;
+  font-family: "Playfair Display", serif;
+  color: #626262;
+}
+
+/* newsletter css ends */
+
+/* bottom lifestyle css starts */
+
+.lifestyle_five {
+  width: 48%;
+}
+.lifestyle_five img {
+  width: 100%;
+}
+.lifestyle_five h5 {
+  color: #c2bcb0;
+  font-size: 14px;
+  font-family: "Ubuntu", sans-serif;
+  text-transform: uppercase;
+  margin-top: 30px;
+}
+.lifestyle_five h1 {
+  color: #626262;
+  font-size: 30px;
+  font-family: "Playfair Display", serif;
+  text-transform: capitalize;
+  margin-top: 30px;
+}
+.lifestyle_five p {
+  margin-top: 30px;
+  font-size: 14px;
+  font-family: "Playfair Display", serif;
+  color: #626262;
+  line-height: 25px;
+}
+.lifestyle_six {
+  width: 48%;
+}
+.lifestyle_six img {
+  width: 100%;
+}
+
+.lifestyle_six h5 {
+  color: #c2bcb0;
+  font-size: 14px;
+  font-family: "Ubuntu", sans-serif;
+  text-transform: uppercase;
+  margin-top: 30px;
+}
+.lifestyle_six h1 {
+  color: #626262;
+  font-size: 30px;
+  font-family: "Playfair Display", serif;
+  text-transform: capitalize;
+  margin-top: 30px;
+}
+
+.lifestyle_six p {
+  margin-top: 30px;
+  font-size: 14px;
+  font-family: "Playfair Display", serif;
+  color: #626262;
+  line-height: 25px;
+}
+/* bottom lifestyle css ends */
+
+/* loadmore section starts */
+
+.load {
+  margin-top: 60px;
+  text-align: center;
+  padding: 100px;
+}
+input[type="button"] {
+  font-size: 14px;
+  font-family: "Playfair Display", serif;
+  color: #626262;
+  padding: 15px 30px;
+  background: transparent;
+  border: 1px solid;
+}
+
+/* loadmore section ends */
+
+/* footer css starts */
+footer{
+    display: flex;
+    padding: 30px 0px;
+    background-color: #f0f0f0;
+    justify-content: space-between;
+    margin: auto;
+    
+}
+.terms{
+    margin-left:10%;
+  
+    width: 20%;
+}
+.terms ul{
+
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.terms ul li a{
+    text-decoration: none;
+    color:#333333;
+    font-family: 'Playfair Display', serif;
+
+}
+.social{
+    margin-right: 10%;
+    width: 10%;
+    
+
+
+}
+.social ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+
+}
+.social ul li a{
+    text-decoration: none;
+    color:#333333;
+    font-family: 'Playfair Display', serif;
+
+}
+/* footer css ends */
+/* font-family: 'Playfair Display', serif; */
+/* font-family: 'Ubuntu', sans-serif; */
